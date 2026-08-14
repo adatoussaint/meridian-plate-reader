@@ -16,10 +16,10 @@ Then **Run All**. Parts A through I run entirely on CPU with no GPU or large dow
 ## What's in this repo
 
 - `ML_Final_Project.ipynb` — the full notebook: pipeline build, both models (MLP and CNN), evaluation, and the business-cost analysis.
-- `docs/Approach_Document.docx` — problem framing, pipeline, data, modeling, evaluation, spike, scope, and risks.
-- `docs/Results_Summary.docx` — metrics, conditions, confusion analysis, and failure modes.
+- `docs/Approach_Document.DOC` — problem framing, pipeline, data, modeling, evaluation, spike, scope, and risks.
+- `docs/Results_Summary.DOC` — metrics, conditions, confusion analysis, and failure modes.
 - `docs/Business_Note.docx` — the auto-accept / route-to-human policy and its cost at 4,200 vehicles/day.
-- `docs/Cell_By_Cell_Reference.docx` — a numbered map of every notebook cell, for quick lookup during the live Q&A.
+- `docs/Cell_By_Cell_Reference.DOC` — a numbered map of every notebook cell, for quick lookup during the live Q&A.
 - `requirements.txt` — Python dependencies.
 
 ## Live demo
@@ -28,4 +28,4 @@ Part G's live-demo cell accepts a real, previously-unseen image at runtime — s
 
 ## AI disclosure
 
-Claude (Anthropic) was used throughout the build as an AI pair-programmer, as the project brief permits and expects. See the appendix of `docs/Approach_Document.docx` for details.
+Claude (Anthropic) was used throughout the build as an AI pair-programmer, as the project brief permits and expects. See the appendix of `docs/Approach_Document.DOC` for details.
