@@ -6,7 +6,7 @@ Alphanumeric number-plate reader prototype for Meridian Access Systems — EMNIS
 
 ```
 pip install -r requirements.txt
-jupyter notebook Final_Project_Demo.ipynb
+jupyter notebook ML_Final_Project.ipynb
 ```
 
 Then **Run All**. Parts A through I run entirely on CPU with no GPU or large downloads required — this covers the full pipeline (segmentation, preprocessing, the local MLP classifier, batch testing across noise conditions, and the business-cost analysis) and is enough to run the live demo.
@@ -15,7 +15,7 @@ Then **Run All**. Parts A through I run entirely on CPU with no GPU or large dow
 
 ## What's in this repo
 
-- `Final_Project_Demo.ipynb` — the full notebook: pipeline build, both models (MLP and CNN), evaluation, and the business-cost analysis.
+- `ML_Final_Project.ipynb` — the full notebook: pipeline build, both models (MLP and CNN), evaluation, and the business-cost analysis.
 - `docs/Approach_Document.docx` — problem framing, pipeline, data, modeling, evaluation, spike, scope, and risks.
 - `docs/Results_Summary.docx` — metrics, conditions, confusion analysis, and failure modes.
 - `docs/Business_Note.docx` — the auto-accept / route-to-human policy and its cost at 4,200 vehicles/day.
